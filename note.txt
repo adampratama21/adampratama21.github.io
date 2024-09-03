@@ -1,0 +1,4 @@
+-Tambah tombol back to top kalau header gak fixed
+-bikin batasan tiap section dan kasih judul section
+-cari inspirasi web porto lain
+-cari alternatif card
