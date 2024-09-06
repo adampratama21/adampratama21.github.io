@@ -203,7 +203,7 @@ body {
 }
 
 .certificate-efset .card-img {
-  background-image: url("EF_SET_Certificate.png");
+  background-image: url("../img/EF_SET_Certificate.png");
   background-size: cover;
   background-position: top;
   background-repeat: no-repeat;
@@ -213,7 +213,7 @@ body {
 }
 
 .certificate-rwd .card-img {
-  background-image: url("Responsive_Web_Design-freeCodeCamp.png");
+  background-image: url("../img/Responsive_Web_Design-freeCodeCamp.png");
   background-size: cover;
   background-position: top;
   background-repeat: no-repeat;
@@ -256,7 +256,7 @@ body {
 }
 
 .landing-page .card-img {
-  background-image: url("landing_page_coffee_shop.PNG");
+  background-image: url("../img/landing_page_coffee_shop.PNG");
   background-size: cover;
   background-position: top;
   background-repeat: no-repeat;
@@ -369,11 +369,11 @@ body {
     "profile socials link"
     "contact socials link"
     "copyright-left copyright link";
-  /* background-image: url(coding.gif);
-    background-size: 110%;
-    background-repeat: no-repeat;
-    background-position: -5% center;
-    background-position-y: 66%; */
+  /* background-image: url(../img/coding.gif);
+  background-size: 110%;
+  background-repeat: no-repeat;
+  background-position: -5% center;
+  background-position-y: 66%; */
 }
 
 .bio {
