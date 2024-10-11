@@ -1,7 +1,1 @@
--tambah tombol back to top kalau header gak fixed
--bikin batasan tiap section dan kasih judul section
--cari inspirasi web porto lain
--cari alternatif card
--buat responsive.css-nya
--tombol tambah href untuk tombol-tombol di header yang sesuai
--edit links di footer
+-coba ubah ke bootstrap 5
