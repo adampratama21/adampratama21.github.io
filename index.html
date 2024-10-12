@@ -5,20 +5,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Adam Pratama | Portfolio</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"> -->
+    <link rel="stylesheet" href="./assets/vendor/bootstrap-5.3.3-dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="./assets/css/styles.css">
 </head>
 
 <body>
     <header id="header">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light ms-4 me-4">
             <a class="navbar-brand" href="#">Adam Pratama</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            <button class="navbar-toggler m" type="button" data-toggle="collapse" data-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ml-auto">
+                <ul class="navbar-nav ms-auto">
                     <li class="nav-item"><a class="nav-link" href="#about">About Me</a></li>
                     <li class="nav-item"><a class="nav-link" href="#skills">Skill</a></li>
                     <li class="nav-item"><a class="nav-link" href="#experience">Experience</a></li>
@@ -34,7 +35,7 @@
             <h2>About Me</h2>
             <div class="tentang col-md-12">
                 <img src="./assets/images/foto_adam.jpg" alt="Foto Diri" class="rounded-circle my-4" width="200">
-                <p class="col-md-10 mx-auto">I am seeking an opportunity to start my career as a front-end web
+                <p class="col-10 text-justify mx-auto">I am seeking an opportunity to start my career as a front-end web
                     developer. I am
                     eager to further
                     develop my skills in web development, with a strong focus on front-end development.</p>
@@ -45,8 +46,8 @@
                     <ul class="d-flex flex-column justify-content-around flex-wrap list-unstyled mt-3">
                         <li>
                             <span class="d-inline-block">2015-2021</span>
-                            <div class="dash d-inline-block mb-1 ml-2 mr-2"></div>
-                            <span class="font-weight-bolder">Gunadarma University</span>
+                            <div class="dash d-inline-block mb-1 ms-2 me-2"></div>
+                            <span class="fw-bolder">Gunadarma University</span>
                         </li>
                         <li>
                             <span>Bachelor's degree in Information System</span>
@@ -62,7 +63,7 @@
             </div>
             <div class="col-md-8 mt-5 mx-auto">
                 <h4>Social Media</h4>
-                <ul class="d-flex flex-row justify-content-around flex-wrap list-unstyled mt-3">
+                <ul class="d-flex flex-row justify-content-around flex-wrap list-unstyled mt-3 column-gap-3">
                     <li class="logo">
                         <a href="https://www.instagram.com/adam__pratama" target="_blank"><img
                                 src="./assets/images/logo/instagram_logo.png" alt="Instagram" class="logo-cover"></a>
@@ -122,11 +123,11 @@
                         </li>
                     </ul>
                 </div>
-                <div class="row my-md-0 mx-auto">
+                <div class="row">
                     <div class="col-md-12 text-center">
                         <h4>Language</h4>
-                        <ul class="list-unstyled mb-4 list-group">
-                            <li class="list-group-item">Bahasa Indonesia (Native)</li>
+                        <ul class="list-unstyled mb-4 list-group d-flex flex-column align-items-center">
+                            <li class=" list-group-item">Bahasa Indonesia (Native)</li>
                             <li class="list-group-item">Bahasa Inggris (Proficient)</li>
                         </ul>
                     </div>
@@ -138,30 +139,26 @@
     <section id="experience" class="my-5">
         <div class="container">
             <h2 class="text-center">Experience</h2>
-            <div class="row d-flex flex-row justify-content-center col-md-10 mx-auto">
+            <div class="row d-flex flex-row justify-content-center col-12 mx-md-auto ms-4">
                 <ol>
                     <li>
                         <span>Oct - Dec 2023</span>
-                        <p><span class="font-weight-bold">PT. Satria Raksa Buminusa</span> - A privately
+                        <p class="text-justify col-10"><span class="fw-bolder">PT. Satria Raksa Buminusa</span> - A
+                            privately
                             owned national company
                             specializing
-                            in security services</p>
-                        <span>
+                            in security services.</p>
+                        <span class="fw-bolder">
                             Data Analyst (Internship) :</span>
                         <ul>
-                            <li class="ml-md-3">
+                            <li class="ms-md-3">
                                 <span>Electronic attendance data analysis :
                                 </span>
-                                <ul class="col-md-12 col-sm-4 ml-md-5">
-                                    <li class="text-justify col-md-12 col-sm-4">Analyzed electronic attendance data of
-                                        security
-                                        guards for
-                                        a
-                                        specific
-                                        project,
-                                        gathered
-                                        through the "Smart Patrol" app, using Microsoft Excel.</li>
-                                    <li class="text-justify col-md-12 col-sm-4">Created a report with a dashboard,
+                                <ul class="col-12 ms-md-5">
+                                    <li class="text-justify col-md-12 col-10">Analyzed electronic attendance data of
+                                        security guards for a specific project, gathered through the "Smart Patrol" app,
+                                        using Microsoft Excel.</li>
+                                    <li class="text-justify col-md-12 col-10">Created a report with a dashboard,
                                         summarizing
                                         electronic
                                         attendance
@@ -174,11 +171,11 @@
                                     </li>
                                 </ul>
                             </li>
-                            <li class="ml-md-3">
+                            <li class="ms-md-3">
                                 <span>"Smart Patrol" app :
                                 </span>
-                                <ul class="col-md-12 col-sm-4 ml-md-5">
-                                    <li class="text-justify  col-md-12 col-sm-4">Contributed to the establishment of
+                                <ul class="col-12 ms-md-5">
+                                    <li class="text-justify  col-md-12 col-10">Contributed to the establishment of
                                         Smart Patrol
                                         accounts
                                         for
@@ -188,12 +185,11 @@
                                         needed.</li>
                                 </ul>
                             </li>
-                            <li class="ml-md-3">
-                                <span>Members Identification Card (KTA) summary :
-                                </span>
-                                <ul class="col-md-12 col-sm-4 ml-md-5">
-                                    <li class="text-justify   col-md-12 col-sm-4">Developed a Members Identification
-                                        Card (KTA)
+                            <li class="ms-md-3">
+                                <span>Members Identification Card summary :</span>
+                                <ul class="col-12 ms-md-5">
+                                    <li class="text-justify col-md-12 col-10">Developed a Members Identification
+                                        Card
                                         Summary
                                         Dashboard, offering a
                                         concise overview of active and soon-to-expire KTAs across all security projects.
@@ -210,27 +206,39 @@
     <section id="certificates" class="my-5">
         <div class="container">
             <h2 class="text-center">Certificate</h2>
-            <div class="row d-flex flex-row justify-content-center">
-                <div class="col-md-6">
+            <div class="row d-flex flex-column flex-md-row justify-content-md-center row-gap-5 column-gap-md-5">
+                <div class="col-md-5">
                     <div class="card d-flex flex-row justify-content-center">
-                        <img src="./assets/images/EF_SET_Certificate.png" class="card-img-top logo-cover"
-                            alt="EF Set Certificate">
-                        <div class="card-body">
-                            <h5 class="card-title">EF Set Certificate</h5>
-                            <p class="card-text">Deskripsi singkat tentang Certificate ini.</p>
+                        <div class="card-img-top">
+                            <img src="./assets/images/EF_SET_Certificate.png" alt="EF Set Certificate">
+                        </div>
+                        <div class="card-body d-flex flex-column justify-content-between align-items-center p-0">
+                            <h5 class="card-title text-decoration-underline text-center">EF Set Certificate</h5>
+                            <ul class="text-center list-unstyled">
+                                <li class="card-text">Score : 73/100</li>
+                                <li class="card-text">Proficiency Level : C2 Proficient (71/100)</li>
+                                <li class="card-text">Date Issued : 20 Aug 2023</li>
+                                <li class="card-text">Issued By : EF (English First)</li>
+                            </ul>
                             <a href="./assets/images/EF_SET_Certificate.png" class="btn btn-primary"
                                 target="_blank">View
                                 Certificate</a>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6">
+                <div class="col-md-5">
                     <div class="card d-flex flex-row justify-content-center">
-                        <img src="./assets/images/Responsive_Web_Design-freeCodeCamp.png"
-                            class="card-img-top logo-cover" alt="Responsive Web Design - freeCodeCamp">
-                        <div class="card-body">
-                            <h5 class="card-title">Responsive Web Design</h5>
-                            <p class="card-text">Deskripsi singkat tentang Certificate ini.</p>
+                        <div class="card-img-top">
+                            <img src="./assets/images/Responsive_Web_Design-freeCodeCamp.png"
+                                alt="Responsive Web Design - freeCodeCamp">
+                        </div>
+                        <div class="card-body d-flex flex-column justify-content-between align-items-center p-0">
+                            <h5 class="card-title  text-decoration-underline text-center">Responsive Web Design</h5>
+                            <ul class="text-center list-unstyled">
+                                <li class="card-text">Responsive Web Design Certificate</li>
+                                <li class="card-text">Date Issued : 15 May 2024</li>
+                                <li class="card-text">Issued By : freeCodeCamp</li>
+                            </ul>
                             <a href="./assets/images/Responsive_Web_Design-freeCodeCamp.png" class="btn btn-primary"
                                 target="_blank">View
                                 Certificate</a>
@@ -251,12 +259,16 @@
                     <div class="card d-flex flex-row justify-content-center">
                         <img src="./assets/images/landing_page_coffee_shop.PNG" class="card-img-top logo-cover"
                             alt="Landing Page Coffee Shop">
-                        <div class="card-body">
-                            <h5 class="card-title">Landing Page Coffee Shop</h5>
-                            <p class="card-text">Deskripsi singkat tentang Certificate ini.</p>
+                        <div class="card-body d-flex flex-column justify-content-between align-items-center p-0">
+                            <h5 class="card-title text-decoration-underline text-center">Landing Page Coffee Shop</h5>
+                            <p class="card-text text-center px-3">A landing page for a fictional coffee shop for the
+                                purpose
+                                of
+                                practicing front-end web
+                                development skill</p>
                             <a href="https://adampratama21.github.io/landing-page-coffee-shop/" class="btn btn-primary"
                                 target="_blank">View
-                                Certificate</a>
+                                Project</a>
                         </div>
                     </div>
                 </div>
@@ -270,9 +282,10 @@
 
     <button id="back-to-top"><span>^</span></button>
 
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <!-- <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script> -->
+    <script src="./assets/vendor/bootstrap-5.3.3-dist/js/bootstrap.bundle.min.js"></script>
     <script src="./assets/js/script.js"></script>
 </body>
 
