@@ -7,7 +7,7 @@
 body {
   font-family: "Roboto", sans-serif;
   line-height: 1.6;
-  background-color: #f4f4f4;
+  background-color: #f8f9fa;
 }
 
 h1,
@@ -16,9 +16,17 @@ h3 {
   font-family: "Montserrat", sans-serif;
 }
 
+nav {
+  background-color: #314357;
+}
+
 section {
   padding: 60px 0;
-  background: #fff;
+  background-color: #fff;
+}
+
+div.collapse > ul > li > a {
+  color: #fff;
 }
 
 h2 {
@@ -38,6 +46,7 @@ h2 {
 
 .card {
   transition: transform 0.3s;
+  height: 200px;
 }
 
 .card:hover {
@@ -46,7 +55,7 @@ h2 {
 
 .card-img-top {
   width: auto;
-  max-width: 160px;
+  max-width: 100px;
   height: auto;
   border: 1px solid #000;
 }
