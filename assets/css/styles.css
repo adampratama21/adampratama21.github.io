@@ -7,13 +7,17 @@
 body {
   font-family: "Roboto", sans-serif;
   line-height: 1.6;
-  background-color: #f8f9fa;
+  background-color: #e5e8eb;
 }
 
 h1,
 h2,
 h3 {
   font-family: "Montserrat", sans-serif;
+}
+
+ul.list-group > li.list-group-item {
+  border: 1px solid black;
 }
 
 nav {
@@ -23,6 +27,11 @@ nav {
 section {
   padding: 60px 0;
   background-color: #fff;
+}
+
+.navbar-toggler {
+  background-color: #e5e8eb;
+  border-color: #000;
 }
 
 div.collapse > ul > li > a {
@@ -46,7 +55,7 @@ h2 {
 
 .card {
   transition: transform 0.3s;
-  height: 200px;
+  height: 250px;
 }
 
 .card:hover {
@@ -55,7 +64,7 @@ h2 {
 
 .card-img-top {
   width: auto;
-  max-width: 100px;
+  max-width: 120px;
   height: auto;
   border: 1px solid #000;
 }
