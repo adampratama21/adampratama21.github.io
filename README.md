@@ -16,16 +16,21 @@ Website ini dibuat sebagai portfolio pribadi, di mana saya menampilkan project-p
 ## Fitur
 
 - **Tampilan Responsif**: Menggunakan Bootstrap untuk memastikan tampilan website terlihat baik di berbagai ukuran layar.
-- **Navigasi ke Project**: Setiap project personal yang saya buat dapat diakses melalui halaman ini.
+- **Navigasi ke Project**: Setiap project personal yang saya buat dapat diakses melalui halaman ini, dengan navigasi yang mudah dan rapi.
+- **Tampilan Grid**: Project-project yang saya tampilkan menggunakan layout grid yang responsif, sehingga memudahkan visitor untuk melihat project saya secara terstruktur.
 
 ## Rencana Update
 
-- Menambahkan fitur modal (pop-up window) untuk bagian **Certificate** dan **Project**, sehingga informasi lebih rinci dapat ditampilkan dengan lebih interaktif.
+- Menambahkan fitur modal (pop-up window) untuk bagian **Certificate** dan **Project**, sehingga informasi lebih rinci dapat ditampilkan dengan lebih interaktif. Rencana update akan dilakukan pada [estimasi waktu, misalnya: akhir tahun ini].
 
 ## Cara Menjalankan
 
-1. Clone repository ini ke dalam local directory.
+1. **Clone repository ini ke dalam local directory**:
+
+   ```bash
    git clone https://github.com/adampratama21/adampratama21.github.io
+
+   ```
 
 2. Buka di Browser
    Setelah clone berhasil, buka file index.html di browser favorit Anda:
@@ -34,7 +39,7 @@ Website ini dibuat sebagai portfolio pribadi, di mana saya menampilkan project-p
    - Buka browser, lalu drag and drop file index.html ke browser.
 
 3. Live Server (Opsional)
-   Jika Anda menggunakan editor seperti VSCode, Anda juga bisa menjalankan proyek ini menggunakan Live Server extension:
+   Jika Anda menggunakan editor seperti VSCode, Anda juga bisa menjalankan project ini menggunakan Live Server extension:
 
    - Klik kanan pada file index.html dan pilih "Open with Live Server".
    - Ini akan membuka halaman di browser dan akan merefresh secara otomatis setiap kali ada perubahan pada file.
