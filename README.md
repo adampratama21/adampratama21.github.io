@@ -32,14 +32,14 @@ Website ini dibuat sebagai portfolio pribadi, di mana saya menampilkan project-p
 
    ```
 
-2. Buka di Browser :
-   Setelah clone berhasil, buka file index.html di browser:
+2. Buka di Browser
+   => Setelah clone berhasil, buka file index.html di browser:
 
    - Cara cepat: Klik dua kali file index.html, atau
    - Buka browser, lalu drag and drop file index.html ke browser.
 
-3. Live Server (Opsional)
-   Jika menggunakan editor seperti VSCode, bisa juga menjalankan project ini menggunakan Live Server extension:
+4. Live Server (Opsional)
+   => Jika menggunakan editor seperti VSCode, bisa juga menjalankan project ini menggunakan Live Server extension:
 
    - Klik kanan pada file index.html dan pilih "Open with Live Server".
    - Ini akan membuka halaman di browser dan akan merefresh secara otomatis setiap kali ada perubahan pada file.
