@@ -53,6 +53,9 @@ h2 {
   background-color: #000;
 }
 
+@media screen {
+}
+
 .card {
   /*height: 250px;*/
   width: 400px;

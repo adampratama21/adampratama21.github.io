@@ -21,7 +21,7 @@ Website ini dibuat sebagai portfolio pribadi, di mana saya menampilkan project-p
 
 ## Rencana Update
 
-- Menambahkan fitur modal (pop-up window) untuk bagian **Certificate** dan **Project**, sehingga informasi lebih rinci dapat ditampilkan dengan lebih interaktif.
+- Menyesuaikan ukuran card dan tampilan pop-up modal pada tampilan mobile.
 
 ## Cara Menjalankan
 
@@ -38,7 +38,7 @@ Website ini dibuat sebagai portfolio pribadi, di mana saya menampilkan project-p
    - Cara cepat: Klik dua kali file index.html, atau
    - Buka browser, lalu drag and drop file index.html ke browser.
 
-4. Live Server (Opsional)
+3. Live Server (Opsional)
    => Jika menggunakan editor seperti VSCode, bisa juga menjalankan project ini menggunakan Live Server extension:
 
    - Klik kanan pada file index.html dan pilih "Open with Live Server".
