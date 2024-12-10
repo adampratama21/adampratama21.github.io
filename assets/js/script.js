@@ -3,8 +3,9 @@ const header = document.getElementById("header");
 
 window.onscroll = function () {
   const headerHeight = header.offsetHeight;
+  const scrollPosition = document.documentElement.scrollTop;
 
-  if (document.documentElement.scrollTop > headerHeight) {
+  if (scrollPosition > headerHeight) {
     backToTopButton.style.display = "flex";
   } else {
     backToTopButton.style.display = "none";
