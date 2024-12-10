@@ -21,7 +21,7 @@ Website ini dibuat sebagai portfolio pribadi, di mana saya menampilkan project-p
 
 ## Rencana Update
 
-- Menambahkan fitur modal (pop-up window) untuk bagian **Certificate** dan **Project**, sehingga informasi lebih rinci dapat ditampilkan dengan lebih interaktif. Rencana update akan dilakukan pada [estimasi waktu, misalnya: akhir tahun ini].
+- Menambahkan fitur modal (pop-up window) untuk bagian **Certificate** dan **Project**, sehingga informasi lebih rinci dapat ditampilkan dengan lebih interaktif.
 
 ## Cara Menjalankan
 
@@ -32,14 +32,14 @@ Website ini dibuat sebagai portfolio pribadi, di mana saya menampilkan project-p
 
    ```
 
-2. Buka di Browser
-   Setelah clone berhasil, buka file index.html di browser favorit Anda:
+2. Buka di Browser :
+   Setelah clone berhasil, buka file index.html di browser:
 
    - Cara cepat: Klik dua kali file index.html, atau
    - Buka browser, lalu drag and drop file index.html ke browser.
 
 3. Live Server (Opsional)
-   Jika Anda menggunakan editor seperti VSCode, Anda juga bisa menjalankan project ini menggunakan Live Server extension:
+   Jika menggunakan editor seperti VSCode, bisa juga menjalankan project ini menggunakan Live Server extension:
 
    - Klik kanan pada file index.html dan pilih "Open with Live Server".
    - Ini akan membuka halaman di browser dan akan merefresh secara otomatis setiap kali ada perubahan pada file.
