@@ -53,9 +53,6 @@ h2 {
   background-color: #000;
 }
 
-@media screen {
-}
-
 .card {
   /*height: 250px;*/
   width: 400px;
@@ -148,4 +145,14 @@ footer {
 }
 #back-to-top:focus {
   outline: none;
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9999;
+  }
 }

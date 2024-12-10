@@ -1,3 +1,15 @@
+//! Navbar Collapse :
+const navLinks = document.querySelectorAll(".navbar-nav .nav-link");
+const navbarCollapse = document.querySelector("#navbarNav");
+
+navLinks.forEach((link) => {
+  link.addEventListener("click", () => {
+    if (navbarCollapse.classList.contains("show")) {
+      new bootstrap.Collapse(navbarCollapse).toggle();
+    }
+  });
+});
+
 //! Back-to-top Button :
 const backToTopButton = document.getElementById("back-to-top");
 const header = document.getElementById("header");
