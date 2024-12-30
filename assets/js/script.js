@@ -166,7 +166,6 @@ buttons.forEach((button) => {
                                             </p>
                                         </li>
                                         <li>
-                                          <span class="fw-bold">Project Link :</span> 
                                             <a href="${certificateLink}" class="btn btn-primary" target="_blank">View Certificate</a>
                                         </li>
                                         
