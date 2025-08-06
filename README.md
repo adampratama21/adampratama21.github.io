@@ -1,45 +1,53 @@
-# Portfolio Pribadi
+# portfolio-react
 
-Ini adalah website portfolio pribadi yang saya buat untuk menampilkan project-project personal saya sebagai seorang front-end web developer. Website ini juga berfungsi sebagai tempat untuk menunjukkan kemampuan saya dalam teknologi pengembangan website.
+Ini adalah website portfolio pribadi yang dibangun menggunakan **React**, dengan **Vite** sebagai alat build, dan penataan dengan **CSS** dan **Bootstrap**.
 
 ## Tech Stack
 
-- HTML
-- CSS
-- Bootstrap
-- JavaScript
+- **HTML**: Digunakan untuk struktur dasar halaman web.
+- **CSS**: Untuk styling dan penataan layout halaman.
+- **Bootstrap**: Framework CSS untuk membuat tampilan responsif dan siap pakai dengan berbagai komponen UI.
+- **JavaScript**: Digunakan untuk logika interaktif dan pengelolaan data.
+- **React**: Library JavaScript untuk membangun antarmuka pengguna berbasis komponen.
+- **Vite**: Alat build cepat yang digunakan untuk pengembangan dan produksi dengan optimasi otomatis.
 
 ## Deskripsi
 
-Website ini dibuat sebagai portfolio pribadi, di mana saya menampilkan project-project yang sudah saya buat maupun yang akan saya kembangkan di masa depan. Tampilan website ini sederhana namun efektif untuk memberikan gambaran mengenai kemampuan saya dalam pengembangan website.
+Website portfolio pribadi ini dibuat untuk melatih kemampuan saya dalam membangun aplikasi menggunakan **React** dan alat bantu build **Vite**. Melalui proyek ini, saya ingin menampilkan berbagai karya dan proyek yang saya kerjakan serta menunjukkan kemampuan saya dalam mengembangkan aplikasi web yang responsif dan interaktif.
 
 ## Fitur
 
-- **Tampilan Responsif**: Menggunakan Bootstrap untuk memastikan tampilan website terlihat baik di berbagai ukuran layar.
-- **Navigasi ke Project**: Setiap project personal yang saya buat dapat diakses melalui halaman ini, dengan navigasi yang mudah dan rapi.
-- **Tampilan Grid**: Project-project yang saya tampilkan menggunakan layout grid yang responsif, sehingga memudahkan visitor untuk melihat project saya secara terstruktur.
-
-## Rencana Update
-
-- Menyesuaikan ukuran card dan tampilan pop-up modal pada tampilan mobile.
-
+- **Tampilan Responsif**: Menggunakan **Bootstrap** untuk memastikan layout tetap rapi di berbagai perangkat.
+- **Interaktif**: Menggunakan **JavaScript** untuk menambah interaktivitas pada elemen-elemen tertentu.
+- **Komponen Reusable**: Menggunakan **React** untuk membangun komponen yang dapat digunakan kembali di seluruh aplikasi.
+  
 ## Cara Menjalankan
 
 1. **Clone repository ini ke dalam local directory**:
 
    ```bash
-   git clone https://github.com/adampratama21/adampratama21.github.io
+   git clone https://github.com/adampratama21/portfolio-react.git
 
    ```
 
-2. Buka di Browser
-   => Setelah clone berhasil, buka file index.html di browser:
+2. **Masuk ke folder projectnya**:
+```bash
+   cd portfolio-react
 
-   - Cara cepat: Klik dua kali file index.html, atau
-   - Buka browser, lalu drag and drop file index.html ke browser.
+   ```
 
-3. Live Server (Opsional)
-   => Jika menggunakan editor seperti VSCode, bisa juga menjalankan project ini menggunakan Live Server extension:
+3. **Install dependensi**:
+```bash
+  pnpm install
 
-   - Klik kanan pada file index.html dan pilih "Open with Live Server".
-   - Ini akan membuka halaman di browser dan akan merefresh secara otomatis setiap kali ada perubahan pada file.
+   ```
+
+4. **Jalankan server pengembangan**:
+```bash
+   pnpm run dev
+
+   ```
+
+5. Aplikasi akan tersedia di :
+   - http://localhost:5173
+
